@@ -1,0 +1,12 @@
+{
+	"name": "vendorInventory/vendorinventoryadvanced",
+	"description": "",
+	"minimum-stability": "alpha",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Abusufean Ali",
+			"email": "abusufean.ali@gmail.com"
+		}
+	]
+}
