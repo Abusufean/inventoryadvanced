@@ -55,8 +55,8 @@ class InventoryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContro
      */
     public function showCategoryAction(\VendorInventory\Vendorinventoryadvanced\Domain\Model\Category $category)
     {
-        $this->redirect('show', 'Category', 'InventoryAdvanced', [$category]);
-
+        //$this->redirect('show', 'Category', 'InventoryAdvanced', ["categoy" => $category]);
+        $this->view->assign('category', $category);
     }
 
     /**

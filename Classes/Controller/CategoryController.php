@@ -44,6 +44,7 @@ class CategoryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      */
     public function showAction(\VendorInventory\Vendorinventoryadvanced\Domain\Model\Category $category)
     {
+
         $this->view->assign('category', $category);
     }
 
